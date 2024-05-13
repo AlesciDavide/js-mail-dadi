@@ -3,4 +3,8 @@ const listaemailDb = ['gigilatrottola@gmail.com', 'mariopassasotto@alice.it', 'e
 let nomeUtente = prompt('inserisci il tuo nome');
 let nomeUtenteLower = nomeUtente.toLocaleLowerCase();
 
-    
+if(listaemailDb.includes(nomeUtenteLower)){
+    console.log('la tua email è presente, ora puoi accedere!! ' + nomeUtenteLower);
+}else{
+    console.log('La tua email non è presente, prova con una\' altra');
+}
