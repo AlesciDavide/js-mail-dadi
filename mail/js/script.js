@@ -1,6 +1,6 @@
 const listaemailDb = ['gigilatrottola@gmail.com', 'mariopassasotto@alice.it', 'emanuelepigliafiori@tiscali.it', 'davide.alesci@gmail.com', 'robertotagliacavi@hotmail.it'];
 
-let nomeUtente = prompt('inserisci il tuo nome');
+let nomeUtente = prompt('inserisci la tua email:');
 let nomeUtenteLower = nomeUtente.toLocaleLowerCase();
 
 if(listaemailDb.includes(nomeUtenteLower)){

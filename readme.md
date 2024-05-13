@@ -24,9 +24,9 @@ con un if controllo quali dei 2 numeri random è più grande e lo stampo in cons
 --------------------------------
 Mail 
 
-Creo un'array con una lista di email (tutte maiuscole).
+Creo un'array con una lista di email (tutte minuscole).
 
-chiedo all'utente l'email (trasformo anche questa in maiuscolo)
+chiedo all'utente l'email (trasformo anche questa in minuscole)
 con un if controllo con includes se l'email è presente. Se è presente stampo in console puoi l'esito positivo
 else stampo l'esito negativo.
 
